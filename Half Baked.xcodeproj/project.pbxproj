@@ -14,6 +14,9 @@
 		A4C9D82B227F446900B6B762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C9D829227F446900B6B762 /* Main.storyboard */; };
 		A4C9D82D227F446900B6B762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C9D82C227F446900B6B762 /* Assets.xcassets */; };
 		A4C9D830227F446900B6B762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C9D82E227F446900B6B762 /* LaunchScreen.storyboard */; };
+		A4C9D838227F478D00B6B762 /* SpriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9D837227F478D00B6B762 /* SpriteSheet.swift */; };
+		A4C9D83A227F4B6000B6B762 /* TLAnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9D839227F4B6000B6B762 /* TLAnalogJoystick.swift */; };
+		A4C9D83C227F4F3500B6B762 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9D83B227F4F3500B6B762 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		A4C9D82C227F446900B6B762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C9D82F227F446900B6B762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C9D831227F446900B6B762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C9D837227F478D00B6B762 /* SpriteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSheet.swift; sourceTree = "<group>"; };
+		A4C9D839227F4B6000B6B762 /* TLAnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAnalogJoystick.swift; sourceTree = "<group>"; };
+		A4C9D83B227F4F3500B6B762 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				A4C9D81F227F446900B6B762 /* AppDelegate.swift */,
 				A4C9D821227F446900B6B762 /* GameScene.sks */,
 				A4C9D825227F446900B6B762 /* GameScene.swift */,
+				A4C9D83B227F4F3500B6B762 /* Constants.swift */,
+				A4C9D837227F478D00B6B762 /* SpriteSheet.swift */,
+				A4C9D839227F4B6000B6B762 /* TLAnalogJoystick.swift */,
 				A4C9D827227F446900B6B762 /* GameViewController.swift */,
 				A4C9D829227F446900B6B762 /* Main.storyboard */,
 				A4C9D82C227F446900B6B762 /* Assets.xcassets */,
@@ -142,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C9D838227F478D00B6B762 /* SpriteSheet.swift in Sources */,
 				A4C9D826227F446900B6B762 /* GameScene.swift in Sources */,
 				A4C9D828227F446900B6B762 /* GameViewController.swift in Sources */,
+				A4C9D83A227F4B6000B6B762 /* TLAnalogJoystick.swift in Sources */,
 				A4C9D820227F446900B6B762 /* AppDelegate.swift in Sources */,
+				A4C9D83C227F4F3500B6B762 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
